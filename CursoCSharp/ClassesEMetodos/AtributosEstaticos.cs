@@ -43,7 +43,7 @@ namespace CursoCSharp.ClassesEMetodos {
             Produto.Desconto = 0.02;
 
             Console.WriteLine("Preço com desconto: {0}", produto1.CalcularDesconto());
-            Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto().ToString("F2"));
+            Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
 
         }
     }
