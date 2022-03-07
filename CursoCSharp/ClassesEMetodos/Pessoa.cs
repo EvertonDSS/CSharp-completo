@@ -10,13 +10,25 @@ namespace CursoCSharp.ClassesEMetodos {
         public int Idade; //Valor padrão 0
 
         public string Apresentar() {
-            return string.Format(
-                $"Olá! Me chamo {Nome} e tenho {Idade} anos.");
+            if (Nome == "" || Idade < 0) {
+                return string.Format("Dados inválidos!");
+            }
+            else {
 
+                return string.Format(
+                    $"Olá! Me chamo {Nome} e tenho {Idade} anos.");
+
+            }
         }
-
         public void ApresentarNoConsole() {
             Console.WriteLine(Apresentar());
         }
+
+        public void Zerar() {
+            Nome = "";
+            Idade = 0;
+
+        }
     }
+
 }
