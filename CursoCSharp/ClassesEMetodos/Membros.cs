@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos {
     internal class Membros {
         public static void Executar() {
-            Pessoa sicrano = new Pessoa();
-            sicrano.Nome = "Renato";
-            sicrano.Idade = 21;
-            Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos.");
+            Pessoa beltrano = new Pessoa();
+            beltrano.Nome = "Renato";
+            beltrano.Idade = 21;
+            Console.WriteLine($"{beltrano.Nome} tem {beltrano.Idade} anos.");
 
-            sicrano.ApresentarNoConsole();
-            sicrano.Zerar();
-            sicrano.ApresentarNoConsole();
+            beltrano.ApresentarNoConsole();
+            beltrano.Zerar();
+            beltrano.ApresentarNoConsole();
 
             var fulano = new Pessoa();
             fulano.Nome = "Maria";
