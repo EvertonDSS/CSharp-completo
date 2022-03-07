@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="EstruturaDeControle\UsandoBreak.cs" />
     <Compile Include="EstruturaDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturaDeControle\EstruturaFor.cs" />
     <Compile Include="EstruturaDeControle\EstruturaForEach.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="EstruturaDeControle\EstruturaIfElseIf.cs" />
     <Compile Include="EstruturaDeControle\EstruturaSwitch.cs" />
     <Compile Include="EstruturaDeControle\EstruturaWhile.cs" />
+    <Compile Include="EstruturaDeControle\UsandoContinue.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
