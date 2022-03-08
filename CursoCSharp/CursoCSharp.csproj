@@ -62,6 +62,7 @@
     <Compile Include="ClassesEMetodos\Pessoa.cs" />
     <Compile Include="ClassesEMetodos\Props.cs" />
     <Compile Include="ClassesEMetodos\Readonly.cs" />
+    <Compile Include="ClassesEMetodos\Struct.cs" />
     <Compile Include="EstruturaDeControle\UsandoBreak.cs" />
     <Compile Include="EstruturaDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturaDeControle\EstruturaFor.cs" />

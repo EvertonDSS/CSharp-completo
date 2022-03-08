@@ -48,7 +48,8 @@ namespace CursoCSharp {
             {"Get Set - Classes e métodos", GetSet.Executar},
             {"Props - Classes e métodos", Props.Executar},
             {"Readonly - Classes e métodos", Readonly.Executar},
-            {"Exemplo Enum- Classes e métodos", ExemploEnum.Executar},
+            {"Exemplo Enum - Classes e métodos", ExemploEnum.Executar},
+            {"Struct - Classes e métodos", ExemploStruct.Executar},
 
 
             });
