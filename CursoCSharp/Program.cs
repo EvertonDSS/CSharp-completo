@@ -51,6 +51,7 @@ namespace CursoCSharp {
             {"Exemplo Enum - Classes e métodos", ExemploEnum.Executar},
             {"Struct - Classes e métodos", ExemploStruct.Executar},
             {"Struct vs Classe - Classes e métodos", StructVsClasse.Executar},
+            {"Valor vs Referencia- Classes e métodos", ValorVsReferencia.Executar},
 
 
             });
