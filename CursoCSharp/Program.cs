@@ -43,6 +43,12 @@ namespace CursoCSharp {
             {"Métodos estáticos - Classes e métodos", MetodosEstaticos.Executar},
             {"Atributos estáticos - Classes e métodos", AtributosEstaticos.Executar},
             {"Desafio atributo - Classes e métodos", DesafioAtributo.Executar},
+            {"Params - Classes e métodos", Params.Executar},
+            {"Parametros nomeados - Classes e métodos", ParametrosNomeados.Executar},
+            {"Get Set - Classes e métodos", GetSet.Executar},
+            {"Props - Classes e métodos", Props.Executar},
+            {"Readonly - Classes e métodos", Readonly.Executar},
+            {"Exemplo Enum- Classes e métodos", ExemploEnum.Executar},
 
 
             });
