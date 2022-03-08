@@ -4,3 +4,5 @@
 CursoCSharp/bin/Debug/CursoCSharp.exe
 *.exe
 CursoCSharp/obj/Debug/CursoCSharp.pdb
+*.exe
+.vs/CursoCSharp/v17/.suo
