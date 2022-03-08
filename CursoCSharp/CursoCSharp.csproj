@@ -67,6 +67,7 @@
     <Compile Include="ClassesEMetodos\Struct.cs" />
     <Compile Include="ClassesEMetodos\StructVsClasse.cs" />
     <Compile Include="ClassesEMetodos\ValorVsReferencia.cs" />
+    <Compile Include="Colecoes\Array.cs" />
     <Compile Include="EstruturaDeControle\UsandoBreak.cs" />
     <Compile Include="EstruturaDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturaDeControle\EstruturaFor.cs" />
