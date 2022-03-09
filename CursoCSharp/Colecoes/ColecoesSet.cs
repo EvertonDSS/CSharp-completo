@@ -16,7 +16,8 @@ namespace CursoCSharp.Colecoes {
             var combo = new HashSet<Produto> {
                 new Produto("Camisa",29.9),
                 new Produto("8a Temporada GoT",99.9),
-                new Produto("Poster", 10)
+                new Produto("Poster", 10),
+
         };
             carrinho.UnionWith(combo); //Adiciona multiplo elementos
             Console.WriteLine(carrinho.Count);

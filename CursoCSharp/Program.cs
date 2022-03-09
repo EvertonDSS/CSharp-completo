@@ -10,7 +10,7 @@ namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                //Fundamentos
+            //Fundamentos
             {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
             {"Comentários - Fundamentos", Comentarios.Executar},
             {"Variaveis e constantes - Fundamentos", VariaveisEConstantes.Executar},
@@ -26,7 +26,7 @@ namespace CursoCSharp {
             {"Operadores Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
             {"Operadores Unarios - Fundamentos", OperadoresUnarios.Executar},
             {"Operador Ternario - Fundamentos", OperadorTernario.Executar},
-           //Estrutura de controle
+            //Estrutura de controle
             {"Estrutura If - Estrutura de Controle", EstruturaIf.Executar},
             {"Estrutura If/Else - Estrutura de Controle", EstruturaIfElse.Executar},
             {"Estrutura If/Else/If - Estrutura de Controle", EstruturaIfElseIf.Executar},
@@ -55,11 +55,12 @@ namespace CursoCSharp {
             {"Valor vs Referencia- Classes e métodos", ValorVsReferencia.Executar},
             {"Parametros por Referencia - Classes e métodos", ParametrosPorReferencia.Executar},
             {"Parametros com Valor Padrão - Classes e métodos", ParametroPadrão.Executar},
-                //Coleções
+            //Coleções
             {"Array - Coleções", Colecoes.Array.Executar },
             {"List - Coleções", ColecoesList.Executar },
             {"ArrayList - Coleções", ColecoesArrayList.Executar },
             {"Set - Coleções", ColecoesSet.Executar },
+            {"Queue - Coleções", ColecoesQueue.Executar },
 
             });
 
