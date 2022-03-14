@@ -10,3 +10,5 @@ CursoCSharp/obj/Debug/CursoCSharp.pdb
 *.exe
 .vs/CursoCSharp/v17/.suo
 .vs/CursoCSharp/v17/.suo
+CursoCSharp/bin/Debug/CursoCSharp.exe.config
+CursoCSharp/bin/Debug/CursoCSharp.pdb
