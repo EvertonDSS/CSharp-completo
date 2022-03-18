@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\Diretorios.cs" />
+    <Compile Include="API\ExemploDateTime.cs" />
+    <Compile Include="API\ExemploDirectoryInfo.cs" />
+    <Compile Include="API\ExemploFileInfo.cs" />
+    <Compile Include="API\ExemploPath.cs" />
+    <Compile Include="API\ExemploTimeSpan.cs" />
+    <Compile Include="API\LendoArquivos.cs" />
+    <Compile Include="TopicosAvancados\Dynamics.cs" />
+    <Compile Include="TopicosAvancados\Generics.cs" />
+    <Compile Include="TopicosAvancados\LINQ2.cs" />
+    <Compile Include="API\PrimeiroArquivo.cs" />
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
     <Compile Include="ClassesEMetodos\Construtores.cs" />
@@ -85,6 +97,8 @@
     <Compile Include="EstruturaDeControle\EstruturaSwitch.cs" />
     <Compile Include="EstruturaDeControle\EstruturaWhile.cs" />
     <Compile Include="EstruturaDeControle\UsandoContinue.cs" />
+    <Compile Include="Excecoes\ExcecoesPersonalizadas.cs" />
+    <Compile Include="Excecoes\PrimeiraExcecao.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
@@ -100,11 +114,38 @@
     <Compile Include="Fundamentos\OperadorTernario.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateFuncAnonima.cs" />
+    <Compile Include="MetodosEFuncoes\DelegatesComoParametros.cs" />
+    <Compile Include="MetodosEFuncoes\ExemploLambda.cs" />
+    <Compile Include="MetodosEFuncoes\LambdasDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\MetodosDeExtensao.cs" />
+    <Compile Include="MetodosEFuncoes\UsandoDelegate.cs" />
+    <Compile Include="OO\Abstract.cs" />
+    <Compile Include="OO\ConstrutorThis.cs" />
+    <Compile Include="OO\Encapsulamento.cs" />
+    <Compile Include="OO\Heranca.cs" />
+    <Compile Include="OO\Interface.cs" />
+    <Compile Include="OO\Polimorfismo.cs" />
+    <Compile Include="OO\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TopicosAvancados\LINQ1.cs" />
+    <Compile Include="TopicosAvancados\Nullables.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento1\Encapsulamento.csproj">
+      <Project>{c858f117-50e0-444c-8a6d-ff5ac570198f}</Project>
+      <Name>Encapsulamento</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

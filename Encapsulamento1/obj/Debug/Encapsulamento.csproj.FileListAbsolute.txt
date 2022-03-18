@@ -1,0 +1,6 @@
+C:\Users\Everton\Documents\CSharp completo\CursoCSharp\CSharp-completo\Encapsulamento1\bin\Debug\Encapsulamento1.dll
+C:\Users\Everton\Documents\CSharp completo\CursoCSharp\CSharp-completo\Encapsulamento1\bin\Debug\Encapsulamento1.pdb
+C:\Users\Everton\Documents\CSharp completo\CursoCSharp\CSharp-completo\Encapsulamento1\obj\Debug\Encapsulamento.csproj.AssemblyReference.cache
+C:\Users\Everton\Documents\CSharp completo\CursoCSharp\CSharp-completo\Encapsulamento1\obj\Debug\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\Everton\Documents\CSharp completo\CursoCSharp\CSharp-completo\Encapsulamento1\obj\Debug\Encapsulamento1.dll
+C:\Users\Everton\Documents\CSharp completo\CursoCSharp\CSharp-completo\Encapsulamento1\obj\Debug\Encapsulamento1.pdb
